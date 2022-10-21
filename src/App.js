@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-    <div className="bg-neutral-800 flex-row-reverse">
+    <div className=" lg: bg-neutral-800 flex-row-reverse lg">
       <h1 className=" pl-2 text-3xl pt-4 pb-4 text-red-600 text-center font-bold font-serif">
         VEGA<span className="text-cyan-800">MOVIES</span>
       </h1>
@@ -39,7 +39,7 @@ function App() {
         {filtered.map((film) => {
           return <Movie key={film.id} movie={film} />;
         })}
-      </div><Footer/>
+      </div>
     </div>
   );
 }

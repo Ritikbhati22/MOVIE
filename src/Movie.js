@@ -1,6 +1,6 @@
 import React from "react";
 
-function Movie({ movie}) {
+function Movie({movie}) {
   return (
     <div className="inline-block pt-4 pb-6 ">
       <div className="object-cover w-72 ml-10 grid ">
